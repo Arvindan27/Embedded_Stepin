@@ -1,7 +1,10 @@
 # Blinky Project In Act
-|ON|
+LED ON
 
-|![LED ON](LED%20ON%20(s1%20ON,s2%20ON).png)|
+![LED ON](<img src="simulation/../LED%20ON%20(s1%20ON,s2%20ON).png" width="200">)
+
+LED OFF
+
 
 ## Code 
 ```
