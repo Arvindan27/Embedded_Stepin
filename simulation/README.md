@@ -2,7 +2,7 @@
 
 |ON|OFF|
 |:--:|:--:|
-|\image html ON.png||
+|\image html LED ON (s1 ON,s2 ON).png||
 
 ## Code 
 ```
