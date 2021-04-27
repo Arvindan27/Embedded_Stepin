@@ -1,8 +1,7 @@
-# Blinky Project In Action
+# Blinky Project In Act
+|ON|
 
-|ON|OFF|
-|:--:|:--:|
-|![LED ON](LED ON (s1 ON,s2 ON).png)||
+|[LED ON](LED%20ON%20(s1%20ON,s2%20ON).png)|
 
 ## Code 
 ```
