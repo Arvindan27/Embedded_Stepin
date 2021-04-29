@@ -13,6 +13,8 @@
 :-------------------------:|:-------------------------:|:-------------------------:
 ![LED case 1](simulation/LED%20OFF%20(s1%20OFF%20,s2%20OFF).png) | ![LED case 2](simulation/LED%20OFF%20(s1%20OFF,s2%20ON).png) | ![LED case 3](simulation/LED%20OFF%20(s1%20ON%20,s2%20OFF).png)
 
+## ADC READING
+![LED case 1](simulation/LED%20OFF%20(s1%20OFF%20,s2%20OFF).png) | ![LED case 2](simulation/LED%20OFF%20(s1%20OFF,s2%20ON).png) | ![LED case 3](simulation/LED%20OFF%20(s1%20ON%20,s2%20OFF).png)
 
 #### CI and Code Quality
 
