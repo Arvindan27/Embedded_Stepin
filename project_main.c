@@ -52,7 +52,7 @@ int main(void)
             }
         else
         {
-            ledstat(LED_OFF);//LED is OFF
+            ledchange(LED_OFF);//LED is OFF
         }
     }
     return 0;
