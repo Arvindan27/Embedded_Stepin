@@ -1,8 +1,5 @@
-# Embedded C Programming Examples with Continuous Integration and Code Quality
+# Embedded C Programming.
 
-# LED Blinking 
-
-## In Action
 ## LED ON
 | s1 and s2 ON|
 :-------------------------:
