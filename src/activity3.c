@@ -12,7 +12,7 @@
 /**
  * Include files
  */
-#include "Activity3.h"
+#include "activity3.h"
 /**
  * @brief To set up the PWM settings .
  */
