@@ -1,0 +1,102 @@
+\hypertarget{activity1_8h}{}\doxysection{inc/activity1.h File Reference}
+\label{activity1_8h}\index{inc/activity1.h@{inc/activity1.h}}
+
+
+activity 1 ,assigning pins for led ,swaitch and heater.  
+
+
+{\ttfamily \#include $<$avr/io.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}activity1.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{activity1_8h_af2e697ac60e05813d45ea2c9c9e79c25}{LED\+\_\+\+ON}}~(0x01)   /$\ast$ LED state=HIGH $\ast$/
+\item 
+\mbox{\Hypertarget{activity1_8h_a80700bb63bd56ebabbb4728aa433fd29}\label{activity1_8h_a80700bb63bd56ebabbb4728aa433fd29}} 
+\#define {\bfseries LED\+\_\+\+OFF}~(0x00)   /$\ast$ LED state=LOW $\ast$/
+\item 
+\mbox{\Hypertarget{activity1_8h_a43bafb28b29491ec7f871319b5a3b2f8}\label{activity1_8h_a43bafb28b29491ec7f871319b5a3b2f8}} 
+\#define {\bfseries F\+\_\+\+CPU}~16000000\+UL  /$\ast$ Clock Frequency of MCU is set to 16 MHz $\ast$/
+\item 
+\mbox{\Hypertarget{activity1_8h_a663daa01e565aee93c6f20c5845b90b4}\label{activity1_8h_a663daa01e565aee93c6f20c5845b90b4}} 
+\#define {\bfseries LED\+\_\+\+PORT}~(PORTD)    /$\ast$ LED Port$\ast$/
+\item 
+\mbox{\Hypertarget{activity1_8h_ab4553be4db9860d940f81d7447173b2f}\label{activity1_8h_ab4553be4db9860d940f81d7447173b2f}} 
+\#define {\bfseries LED\+\_\+\+PIN}~(PORTD4)   /$\ast$ Pin number where LED is connected $\ast$/
+\item 
+\mbox{\Hypertarget{activity1_8h_a3027aae495fb6502790df1ed3aa8d133}\label{activity1_8h_a3027aae495fb6502790df1ed3aa8d133}} 
+\#define {\bfseries SWITCH\+\_\+\+ON}~(PINC\&(1$<$$<$5))
+\item 
+\mbox{\Hypertarget{activity1_8h_add6ca5edc6baca7a46a3e6604f4a7e20}\label{activity1_8h_add6ca5edc6baca7a46a3e6604f4a7e20}} 
+\#define {\bfseries HEATER\+\_\+\+ON}~(PINC\&(1$<$$<$4))
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{activity1_8h_a1218a53459edc2e248de51fe47e0f00b}{ledchange}} (uint8\+\_\+t state)
+\begin{DoxyCompactList}\small\item\em To change the state of the LED Pin according to the value of S1 and S2. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+activity 1 ,assigning pins for led ,swaitch and heater. 
+
+\begin{DoxyAuthor}{Author}
+256268 (\href{mailto:arvindan.p.27@gmail.com}{\texttt{ arvindan.\+p.\+27@gmail.\+com}}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2021-\/04-\/24
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2021
+\end{DoxyCopyright}
+\begin{DoxyAuthor}{Author}
+256268 (\href{mailto:arvindan.p.27@gmail.com}{\texttt{ arvindan.\+p.\+27@gmail.\+com}}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2021-\/04-\/29
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2021 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{activity1_8h_af2e697ac60e05813d45ea2c9c9e79c25}\label{activity1_8h_af2e697ac60e05813d45ea2c9c9e79c25}} 
+\index{activity1.h@{activity1.h}!LED\_ON@{LED\_ON}}
+\index{LED\_ON@{LED\_ON}!activity1.h@{activity1.h}}
+\doxysubsubsection{\texorpdfstring{LED\_ON}{LED\_ON}}
+{\footnotesize\ttfamily \#define LED\+\_\+\+ON~(0x01)   /$\ast$ LED state=HIGH $\ast$/}
+
+Include files 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{activity1_8h_a1218a53459edc2e248de51fe47e0f00b}\label{activity1_8h_a1218a53459edc2e248de51fe47e0f00b}} 
+\index{activity1.h@{activity1.h}!ledchange@{ledchange}}
+\index{ledchange@{ledchange}!activity1.h@{activity1.h}}
+\doxysubsubsection{\texorpdfstring{ledchange()}{ledchange()}}
+{\footnotesize\ttfamily void ledchange (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{state }\end{DoxyParamCaption})}
+
+
+
+To change the state of the LED Pin according to the value of S1 and S2. 
+
+Function Definitions
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & voltage level to which the LED Pin should be set.\\
+\hline
+\end{DoxyParams}
+To change the state of the LED Pin according to the value of S1 and S2.
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & Voltage level to which the LED Pin should be set \\
+\hline
+\end{DoxyParams}
