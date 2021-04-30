@@ -1,4 +1,4 @@
-DOXY_FILE = ltts_embedded
+DOXY_FILE =Doxyfile
 BUILD_FILE = html
 
 FixPath = $(subst /,\,$1)
