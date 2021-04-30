@@ -1,1 +1,1 @@
-@mainpage Blinky Example by Bharath G @subpage project_main.c
+@mainpage ltts_embedded assignment by Arvindan P @subpage project_main.c
