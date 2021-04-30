@@ -18,9 +18,9 @@
  * @brief Initialize Peripherals for PWM.
  * @note Oscilloscope is connected to port B1 to see the pwm output.
  * @note Pre-scaler=64
- * @note 10-bit Fast PWM is used.
+ * @note Fast PWM is used.
  */
-void setup_pwm();
+void init_pwm();
 
 /**
  * @brief Generating PWM waveform according to the value of temperature(ADC)
@@ -30,6 +30,6 @@ void setup_pwm();
  * @note For 510-700 ADC value duty cycle of PWM is 70% , giving output as 29 degree Celsius
  * @note For 710-1024 ADC value duty cycle of PWM is 95% , giving output as 33 degree Celsius
  */
-void pwm_waveform(uint16_t);
+void pwm(uint16_t);
 
 #endif // ACTIVITY3_H_INCLUDED

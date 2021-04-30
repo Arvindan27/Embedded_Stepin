@@ -19,24 +19,23 @@
 #include <stdint.h>
 
 /**
- * @brief Function to initialize the USART communication
- * @param[in] unsigned integer to set the baud rate to 9600
+ * @brief Initialize the USART communication
+ * @param unsigned integer to set the baud rate to 9600
  * @note ennabling transmitting and receiving
  */
-void InitUSART(uint16_t);
+void Init_USART(uint16_t);
 
 /**
  * @brief Function to read from UDR register
- * @return Returning what is  stored in UDR register
+ * @return Return what is  stored in UDR register
  * @note Wait until the data is available and then store it in UDR register
  */
-char USARTRead();
+char USART_Read();
 
 /**
  * @brief Function to write to the USART buffer
- * @param[in] uint16_t type integer is temperature.
- * @note Wait until the transimitter is ready and then store it in UDR register
+ * @param uint16_t type integer is temperature.
  */
-void USARTWrite(uint16_t);
+void USART_Write(uint16_t);
 
 #endif // ACTIVITY4_H_INCLUDED

@@ -14,9 +14,9 @@
 /**
  * @brief Change the state of the LED Pin according to the value of S1 and S2.
  *
- * @param state Voltage level to which the LED Pin should be set
+ * @param v Voltage level to which the LED Pin should be set
  */
-void ledchange(uint8_t state)
+void ledchange(uint8_t v)
 {
-	LED_PORT = (state << LED_PIN);
+	LED_PORT = (v << LED_PIN);
 }
