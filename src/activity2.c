@@ -30,7 +30,7 @@ uint16_t ReadADC(uint8_t c)
     /*Selecting ADC channel0*/
     ADMUX&=0xf8;
     c=c&0b00000111;
-    ADMUX|=ch;
+    ADMUX|=c;
     /*Start  conversion*/
     ADCSRA|=(1<<ADSC);
     /*Wait for conversion to complete*/
