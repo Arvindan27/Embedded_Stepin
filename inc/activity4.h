@@ -21,21 +21,21 @@
 /**
  * @brief Function to initialize the USART communication
  * @param[in] unsigned integer to set the baud rate to 9600
- * @note All the transmitter and receivers are enabled
+ * @note ennabling transmitting and receiving
  */
 void InitUSART(uint16_t);
 
 /**
- * @brief Function to read the character from UDR register
- * @return Returning the character that is stored in UDR register
- * @note Wait until the data is available and store it in UDR register
+ * @brief Function to read from UDR register
+ * @return Returning what is  stored in UDR register
+ * @note Wait until the data is available and then store it in UDR register
  */
 char USARTRead();
 
 /**
- * @brief Function to write the character to the USART buffer
- * @param[in] uint16_t type integer is temperature value which is passed as input value
- * @note Wait until the transimitter is ready and store it in UDR register
+ * @brief Function to write to the USART buffer
+ * @param[in] uint16_t type integer is temperature.
+ * @note Wait until the transimitter is ready and then store it in UDR register
  */
 void USARTWrite(uint16_t);
 
